@@ -9,6 +9,7 @@ EX: I only have things that are from PIP, use the file ending in _pip
 
 Then edit the names of anything that is in [] 
 
-Finally, add your requirements to a requirements.txt file by running `pip freeze > requirements.txt`.
+Finally, add your requirements to a requirements.txt file by running
+`pip freeze > requirements.txt`.
 For anything else, add them where there is [APT], [DNF] or [GIT]
 
