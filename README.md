@@ -1,7 +1,7 @@
 # Py-Installer-Template
 The code I use for my install.py files. It's not the best, but enjoy.
 
-# How do i use this?
+# How do I use this?
 To use this, download the installer template based on where you are getting packages from.
 
 EX: I only have things that are from PIP, use the file ending in _pip
@@ -9,7 +9,6 @@ EX: I only have things that are from PIP, use the file ending in _pip
 
 Then edit the names of anything that is in [] 
 
-Finally, add your requirements to a requirements.txt file by running
-`pip freeze > requirements.txt`.
+Finally, run `pip freeze > requirements.txt` to get your requirements.
 For anything else, add them where there is [APT], [DNF] or [GIT]
 
