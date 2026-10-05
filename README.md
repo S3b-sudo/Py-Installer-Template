@@ -4,13 +4,12 @@ The code I use for my install.py files. It's not the best, but enjoy.
 This has only been tested on Fedora Linux
 
 # How do I use this?
-To use this, download the installer template based on where you are getting packages from.
+To use this, download the installer template and edit everything in []
 
-EX: I only have things that are from PIP, use the file ending in _pip
-    If you need things from APT and PIP, use the _aptpip etc...
+If you want to enable APT and DNF, uncomment the code
+If you want to disable OS check, comment the code
 
-Then edit the names of anything that is in [] 
+Finally, run `pip freeze > requirements.txt` to get your python requirements.
 
-Finally, run `pip freeze > requirements.txt` to get your requirements.
-For anything else, add them where there is [APT], [DNF] or [GIT]
+For APT and DNF, uncomment the block of code and add the package names to [APT] and/or [DNF]
 
