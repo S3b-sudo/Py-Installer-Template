@@ -1,6 +1,8 @@
 # Py-Installer-Template
 The code I use for my install.py files. It's not the best, but enjoy.
 
+This has only been tested on Fedora Linux
+
 # How do I use this?
 To use this, download the installer template based on where you are getting packages from.
 
