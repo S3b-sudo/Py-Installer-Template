@@ -1,6 +1,9 @@
 import os
 import requests
 
+# IMPORTANT
+# Eddit anything in [] before running
+
 print("[NAME OF PROJECT] Installer")
 print("==================")
 input("Press 'Return' to begin: ")
